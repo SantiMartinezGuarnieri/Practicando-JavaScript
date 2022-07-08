@@ -20,6 +20,20 @@ function convertir() {
     else {
         alert ("Se debe completar todos los requirimientos")
     }
-
-
 }
+    let repetir = true
+
+    while(repetir){
+        let = inversion =  prompt ( " Cuales son las monedas con mayor potencial de crecimiento para invertir tus ahorros actualmente segun la revista Forbes")
+        inversion == inversion.toLowerCase()
+    
+        if( (inversion === "dolar")||(inversion === "euro")||(inversion === "bitcoin")){
+            repetir = false
+            alert ("Acertaste! buen trabajo! Ahora calcula tus ahorros")
+    }
+       
+        else {
+            alert("sigue intentando") 
+    }
+}
+    
